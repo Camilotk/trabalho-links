@@ -1,0 +1,22 @@
+{
+    "name": "ccazevedo/mvc_trabalho",
+    "description": "Trabalho 1 da Disciplina de Des. de Sistemas p/ a Internet",
+    "license": "Apache 2",
+    "authors": [
+        {
+            "name": "Camilo Cunha de Azevedo",
+            "email": "camilotk@gmail.com"
+        }
+    ],
+    "require": {
+        "embed/embed": "^4.2",
+        "slim/psr7": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "models/",
+            "Controller\\": "controllers/",
+            "Util\\": "classes/"
+        }
+    }
+}
